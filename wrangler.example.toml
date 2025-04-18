@@ -21,6 +21,9 @@ WEBHOOK_URL = "https://<YourWebhookURL>"
 RSS_TITLE = "Rin Development Environment"
 RSS_DESCRIPTION = "Development Environment"
 
+[observability.logs]
+enabled = true
+
 [[d1_databases]]
 binding = "DB"
 database_name = "rin"
